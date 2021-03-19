@@ -3,7 +3,7 @@
 "
 Class {
 	#name : #HeyMainClass,
-	#superclass : #PjFileBasedWebApp,
+	#superclass : #PjWebApplication,
 	#category : #'HtestPharoJS-Main'
 }
 
@@ -15,9 +15,6 @@ HeyMainClass class >> appClasses [
 
 { #category : #'start-stop' }
 HeyMainClass >> start [
-	| user root |
-	super start.
-	user := FEUser new.
-	user name: 'je m''appelle Harald'.
-	root := document body innerHTML: (user name).
+
+	super start
 ]
