@@ -28,9 +28,4 @@ MainBis >> start [
 			log: ' ce log :';
 			log: result ].
 	window alert: 'test1'.
-	
-	
-
-  
-	
 ]
